@@ -1,0 +1,14 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity conversor_Gray is
+port (a, b, c: in std_logic;
+			  x_MSB, x_BI, x_LSB: out std_logic);
+end conversor_Gray;
+
+architecture arq of maior_Q is 
+begin
+		x_MSB <= a;
+		x_BI <= ((a and not(b)) or (b and not(a)) or (c and b and not(a)) );
+		x_LSB <= ((b and not(C)) or (c and not(b) and not (a)) or ( c and not(b)))
+end arq;

@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Exer3_maiorQ is
+port (a, b: in std_logic;
+			x: out std_logic);
+end Exer3_maiorQ;
+
+architecture arq of Exer3_maiorQ is 
+begin
+		x <= a and not(b);
+end arq;

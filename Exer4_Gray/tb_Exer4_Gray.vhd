@@ -1,0 +1,23 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tb_Exer4_Gray is
+end entity;
+
+architecture tb_arq_Exer4_Gray of tb_Exer4_Gray is
+	signal ta, tb, tc, tx, ty, tz: std_logic;
+	begin
+		uut: entity work.Exer4_Gray(arq)
+						port map (ta, tb, tc, tx, ty, tz);
+				process 
+				begin
+						ta <= '0'; tb <= '0'; tc <= '0'; wait for 10 ns;
+						ta <= '0'; tb <= '0'; tc <= '1'; wait for 10 ns;
+						ta <= '0'; tb <= '1'; tc <= '0'; wait for 10 ns;
+						ta <= '0'; tb <= '1'; tc <= '1'; wait for 10 ns;
+						ta <= '1'; tb <= '0'; tc <= '0'; wait for 10 ns;
+						ta <= '1'; tb <= '0'; tc <= '1'; wait for 10 ns;
+						ta <= '1'; tb <= '1'; tc <= '0'; wait for 10 ns;
+						ta <= '1'; tb <= '1'; tc <= '1'; wait for 10 ns;
+					end process;
+end tb_arq_Exer4_Gray;

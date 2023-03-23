@@ -1,0 +1,19 @@
+|Exer4_Gray
+a => x_BI.IN0
+a => x_MSB.DATAIN
+a => x_BI.IN0
+a => x_BI.IN1
+a => x_LSB.IN1
+b => x_BI.IN1
+b => x_BI.IN0
+b => x_LSB.IN0
+b => x_BI.IN1
+b => x_LSB.IN0
+c => x_BI.IN1
+c => x_LSB.IN1
+c => x_LSB.IN1
+x_MSB << a.DB_MAX_OUTPUT_PORT_TYPE
+x_BI << x_BI.DB_MAX_OUTPUT_PORT_TYPE
+x_LSB << x_LSB.DB_MAX_OUTPUT_PORT_TYPE
+
+

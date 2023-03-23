@@ -1,0 +1,8 @@
+|Exer_1
+a => s3.IN0
+a => s2.IN0
+b => s3.IN1
+b => s2.IN1
+x << x.DB_MAX_OUTPUT_PORT_TYPE
+
+
