@@ -1,0 +1,12 @@
+|circuito_LT
+a[0] => s1.IN0
+a[0] => s2.IN0
+a[1] => s0.IN0
+a[1] => s2.IN1
+b[0] => s1.IN1
+b[0] => s2.IN1
+b[1] => s0.IN1
+b[1] => s1.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

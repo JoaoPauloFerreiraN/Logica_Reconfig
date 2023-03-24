@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity circuito_multiplicador is
+  port (a, b: in std_logic_vector (1 downto 0);
+           y: out std_logic (3 downto 0));
+end circuito_multiplicador;
+
+
+architecture arq of circuito_multiplicador is
+    signal ia, ib: interger range 0 to 4;
+    begin
+        ia <= to_interger (unsigned (a));
+        ib <= to_interger (unsigned (b));
+
+        s <= std_logic_vector (to_unsigned (ia*ib, 4));
+end arq ; -- arq
+
+
+-- architecture arq of circuito_multiplicador is
+--     signal s0, s1, s1_1, s1_2, s1_3, s1_4, s2, s2_1, s2_2, s3: std_logic;
+--     begin
+--         s0 <= a(0) and b(0);
+--             s1_1 <= not (a(1)) and a(0) and b(1);
+--             s1_2 <= a(0) and b(1) and not(b(0));
+--             s1_3 <= a(1) and not (a(0)) and b(0);
+--             s1_4 <= a(1) and not (b(1)) and b(0);
+--         s1 <= s1_1 or s1_2 or s1_3 or s1_4;
+--             s2_1 <= a(1) and not (a(0)) and b(1);
+--             s2_2 <= a(1) and b(1) and not (b(0));
+--         s2 <= s2_1 or s2_2;
+--         s3 <= a(1) and a(0) and b(1) and b(0);
+--         y <= s0 or s1 or s2 or s3;
+-- end arq ; -- arq

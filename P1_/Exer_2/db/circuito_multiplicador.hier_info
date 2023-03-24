@@ -1,0 +1,11 @@
+|circuito_multiplicador
+a[0] => Mult0.IN1
+a[1] => Mult0.IN0
+b[0] => Mult0.IN3
+b[1] => Mult0.IN2
+y[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+

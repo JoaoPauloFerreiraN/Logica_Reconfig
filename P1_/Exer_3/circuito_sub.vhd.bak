@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity circuito_sub is
+  port (a, b: in std_logic_vector (2 downto 0);
+           y: out std_logic_vector (2 downto 0)) ;
+end circuito_sub;
+
+architecture arq of circuito_sub is
+    signal ia, ib: integer range  0 to 3;
+    begin
+        ia <= to_interger (unsigned(a));
+        ib <= to_interger (unsigned(b));
+        y <= std_logic_vector (to_signed(ia-ib, 3));
+
+end arq ; -- arq
