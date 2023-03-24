@@ -1,5 +1,5 @@
 Flow report for circuito_sub
-Thu Mar 23 23:32:26 2023
+Fri Mar 24 15:45:47 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Thu Mar 23 23:32:26 2023       ;
+; Flow Status                 ; Successful - Fri Mar 24 15:45:47 2023       ;
 ; Quartus Prime Version       ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name               ; circuito_sub                                ;
 ; Top-level Entity Name       ; circuito_sub                                ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 03/23/2023 23:32:18 ;
+; Start date & time ; 03/24/2023 15:45:39 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; circuito_sub        ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id      ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 110073165714226.167962513801164        ; --            ; --          ; --              ;
+; COMPILER_SIGNATURE_ID                ; 110073165714226.167968353918088        ; --            ; --          ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_circuito_sub ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_circuito_sub                        ; --            ; --          ; eda_simulation  ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                   ; --            ; --          ; eda_simulation  ;
@@ -101,8 +101,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4836 MB             ; 00:00:08                           ;
-; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:08                           ;
+; Analysis & Elaboration ; 00:00:08     ; 1.0                     ; 4836 MB             ; 00:00:07                           ;
+; Total                  ; 00:00:08     ; --                      ; --                  ; 00:00:07                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
