@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/simulation/modelsim
+Ecircuito_somador
+Z1 w1680818564
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/circuito_somador.vhd
+Z6 FC:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/circuito_somador.vhd
+l0
+L5 1
+V>=dfiSV[<HZjRlULW?<N=0
+!s100 B_o9Q]`W<N8n]nITKSe@o3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1680818723
+!i10b 1
+Z9 !s108 1680818723.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/circuito_somador.vhd|
+Z11 !s107 C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/circuito_somador.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarq
+R2
+R3
+R4
+DEx4 work 16 circuito_somador 0 22 >=dfiSV[<HZjRlULW?<N=0
+!i122 0
+l13
+L11 7
+Vm=:j:d5m]YjHNU4?o?7>`3
+!s100 lEIQYjT=`1C@[WATegEAe1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_circuito_somador
+Z14 w1680818601
+R2
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/tb_circuito_somador.vhd
+Z16 FC:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/tb_circuito_somador.vhd
+l0
+L5 1
+VWVL9K67I`?df8hPL9;KaF3
+!s100 kHjlTz882cznmhJ]9RA[72
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/tb_circuito_somador.vhd|
+!s107 C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/tb_circuito_somador.vhd|
+!i113 1
+R12
+R13
+Atb_arq
+R2
+R3
+R4
+DEx4 work 19 tb_circuito_somador 0 22 WVL9K67I`?df8hPL9;KaF3
+!i122 1
+l16
+L9 21
+VNY4[7JFc?i4[BOfKc<he?0
+!s100 ?5]=ZSU3NCYgZ[9GC;3dP2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+Z18 !s107 C:/Users/joaop/Documents/Logica_Reconfig/Circuito_somador/tb_circuito_somador.vhd|
+!i113 1
+R12
+R13
