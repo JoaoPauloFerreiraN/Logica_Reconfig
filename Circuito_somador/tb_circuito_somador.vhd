@@ -26,4 +26,4 @@ architecture tb_arq of tb_circuito_somador is
 				end loop;
 			end loop;
 		end process;
-	end tb_arq;
+end tb_arq;

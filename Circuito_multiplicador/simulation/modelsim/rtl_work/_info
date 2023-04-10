@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/simulation/modelsim
+Ecircuito_multiplicador
+Z1 w1681093391
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/circuito_multiplicador.vhd
+Z6 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/circuito_multiplicador.vhd
+l0
+L5 1
+V6B5jW2khIk0?zUi`L`n@Q0
+!s100 z=H[`>iHek^;a7;BYIl]^1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1681093414
+!i10b 1
+Z9 !s108 1681093414.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/circuito_multiplicador.vhd|
+Z11 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/circuito_multiplicador.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarq
+R2
+R3
+R4
+DEx4 work 22 circuito_multiplicador 0 22 6B5jW2khIk0?zUi`L`n@Q0
+!i122 0
+l13
+L11 7
+VlIoZn0R?>W`6kXS4KCG;K1
+!s100 aF@LUAZBAOAJ>?2eaBfC30
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_circuito_multiplicador
+Z14 w1681093392
+R2
+R3
+R4
+!i122 1
+R0
+Z15 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/tb_circuito_multiplicador.vhd
+Z16 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/tb_circuito_multiplicador.vhd
+l0
+L5 1
+VKaP<eSzd0K?A>]@;z[kfh2
+!s100 dYZBlO`BDn^Eeg0ecSY0E1
+R7
+31
+Z17 !s110 1681093415
+!i10b 1
+Z18 !s108 1681093415.000000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/tb_circuito_multiplicador.vhd|
+!s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/tb_circuito_multiplicador.vhd|
+!i113 1
+R12
+R13
+Atb_arq
+R2
+R3
+R4
+DEx4 work 25 tb_circuito_multiplicador 0 22 KaP<eSzd0K?A>]@;z[kfh2
+!i122 1
+l16
+L9 21
+V9FS1in=3gIZ5GR4o[z92S1
+!s100 n>m;`lz2coiQUMVP43YFa0
+R7
+31
+R17
+!i10b 1
+R18
+R19
+Z20 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Circuito_multiplicador/tb_circuito_multiplicador.vhd|
+!i113 1
+R12
+R13
