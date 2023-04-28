@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joaop/Documents/Logica_Reconfig/PR_2/simulation/modelsim
+Emsbshifter
+Z1 w1682046102
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/joaop/Documents/Logica_Reconfig/PR_2/MSBShifter.vhd
+Z6 FC:/Users/joaop/Documents/Logica_Reconfig/PR_2/MSBShifter.vhd
+l0
+L5 1
+VG5J`X0j0KDg4e[l9hf]5z1
+!s100 gDLR0O`ZhzMRITQE7HaP[2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1682452273
+!i10b 1
+Z9 !s108 1682452273.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR_2/MSBShifter.vhd|
+Z11 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR_2/MSBShifter.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarq
+R2
+R3
+R4
+Z14 DEx4 work 10 msbshifter 0 22 G5J`X0j0KDg4e[l9hf]5z1
+!i122 0
+l18
+L13 43
+V4BoVaC^:9=VcRiWXVkeXC3
+!s100 :aVVCa;Xg43BYRSRn3IB:3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_msbshifter
+Z15 w1682452240
+R2
+R3
+R4
+!i122 1
+R0
+Z16 8C:/Users/joaop/Documents/Logica_Reconfig/PR_2/tb_MSBShifter.vhd
+Z17 FC:/Users/joaop/Documents/Logica_Reconfig/PR_2/tb_MSBShifter.vhd
+l0
+L5 1
+VLiEg=_aR^FgSjOSWJaUj12
+!s100 DUYT1h37Z`Q0c<dKz<W^i0
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR_2/tb_MSBShifter.vhd|
+!s107 C:/Users/joaop/Documents/Logica_Reconfig/PR_2/tb_MSBShifter.vhd|
+!i113 1
+R12
+R13
+Atb_arq
+R14
+R2
+R3
+R4
+DEx4 work 13 tb_msbshifter 0 22 LiEg=_aR^FgSjOSWJaUj12
+!i122 1
+l15
+L9 20
+Vi=_mHP>V:aJg>H^ESD7Ko1
+!s100 9l;FGSJ;kJCj>2VmG;@mJ0
+R7
+31
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR_2/tb_MSBShifter.vhd|
+!i113 1
+R12
+R13

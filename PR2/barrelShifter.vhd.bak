@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all
+
+entity barrelShifter is
+	generic (N: integer :=4);
+	port (a: in std_logic_vector (N-1 downto 0);
+			s: out std_logic_vector (N-1 downto 0));
+end entity;
+
+architecture arq of barrelShifter is
+	type vec_int is array (N-1 downto 0) of integer range 0 to N;
+	signal vecAux, zeros: vec_int;
+	begin
+	vecAux <= to_integer(unsigned(a));
+	gen_1: for i in 0 to N-1 generate
+		gen_2: for j in 0 to N-1 generate
+			if 
+	
+	
+	
+	
+end architecture;
+	

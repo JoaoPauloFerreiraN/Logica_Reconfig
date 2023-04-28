@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_entrada[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led_entrada[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led_entrada[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led_entrada[3]",
+					"strict" : false
+				},
+				{
+					"name" : "y[0]",
+					"strict" : false
+				},
+				{
+					"name" : "y[1]",
+					"strict" : false
+				},
+				{
+					"name" : "y[2]",
+					"strict" : false
+				},
+				{
+					"name" : "y[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "aux7segm2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x[0]",
+					"strict" : false
+				},
+				{
+					"name" : "x[1]",
+					"strict" : false
+				},
+				{
+					"name" : "x[2]",
+					"strict" : false
+				},
+				{
+					"name" : "x[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

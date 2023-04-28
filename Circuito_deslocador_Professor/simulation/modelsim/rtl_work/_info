@@ -1,0 +1,98 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/simulation/modelsim
+Ebarrel_shifter
+Z1 w1681830713
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/barrel_shifter.vhd
+Z6 FC:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/barrel_shifter.vhd
+l0
+L5 1
+VRo0AS=DDonS0>oG;XMIkX2
+!s100 TZ>B`USLX3T3J_5Ez5Aam0
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1681830849
+!i10b 1
+Z9 !s108 1681830849.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/barrel_shifter.vhd|
+Z11 !s107 C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/barrel_shifter.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aarq
+R2
+R3
+R4
+Z14 DEx4 work 14 barrel_shifter 0 22 Ro0AS=DDonS0>oG;XMIkX2
+!i122 0
+l15
+L12 9
+VhleIYkYR[h>5GN[3FAP[U3
+!s100 z>P[^C8bOaahl<]fPZ[N43
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etb_barrel_shifter
+Z15 w1681830753
+R2
+R3
+R4
+!i122 1
+R0
+Z16 8C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/tb_barrel_shifter.vhd
+Z17 FC:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/tb_barrel_shifter.vhd
+l0
+L5 1
+Ve?8czOzaKn1Di7;>Qe<XH2
+!s100 `U43S:IX<Pz0oI4MC@65O3
+R7
+31
+Z18 !s110 1681830850
+!i10b 1
+Z19 !s108 1681830850.000000
+Z20 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/tb_barrel_shifter.vhd|
+!s107 C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/tb_barrel_shifter.vhd|
+!i113 1
+R12
+R13
+Atb_arq
+R14
+R2
+R3
+R4
+DEx4 work 17 tb_barrel_shifter 0 22 e?8czOzaKn1Di7;>Qe<XH2
+!i122 1
+l12
+L8 33
+Vb=lT1oPB<I^e8MAVG;ckP2
+!s100 QbnmX4DXmj4`jHTMCK:J01
+R7
+31
+R18
+!i10b 1
+R19
+R20
+Z21 !s107 C:/Users/joaop/Documents/Logica_Reconfig/Circuito_deslocador_Professor/tb_barrel_shifter.vhd|
+!i113 1
+R12
+R13

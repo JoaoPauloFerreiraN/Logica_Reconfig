@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity tb_barrelshifter is
+	generic(M : integer := 3);
+end entity;
+
+architecture tb_arq of tb_barrelshifter is
+	signal tx: std_logic_vector(M-1 downto 0);
+	signal ty: integer range 0 to M;
+begin
+	
+	uut: entity work.barrelshifter(arq)
+		generic map(M);
+		port map(tx,ty);
+		
+	process
+		variable i: intiger range 0 to 2**M-1;
+	begin
+		for i in 0 to 2**M-1 loop
+			tx <= std_logic_vector(to_unsigned(i, M));
+			wait for 10 ns;
+	end process;
+
+end arq;

@@ -8,27 +8,27 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/simulation/modelsim
+Z0 dC:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/simulation/modelsim
 Ehamming_weight
-Z1 w1681097183
+Z1 w1681250299
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 0
 R0
-Z5 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/hamming_weight.vhd
-Z6 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/hamming_weight.vhd
+Z5 8C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/hamming_weight.vhd
+Z6 FC:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/hamming_weight.vhd
 l0
 L5 1
 Vl6;cEIB:X;GoYBd;?Neih0
 !s100 44Phd4JzI?`BV?C6PT]5e1
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1681097194
+Z8 !s110 1682013577
 !i10b 1
-Z9 !s108 1681097194.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/hamming_weight.vhd|
-Z11 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/hamming_weight.vhd|
+Z9 !s108 1682013576.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/hamming_weight.vhd|
+Z11 !s107 C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/hamming_weight.vhd|
 !i113 1
 Z12 o-93 -work work
 Z13 tExplicit 1 CvgOpt 0
@@ -59,19 +59,19 @@ R3
 R4
 !i122 1
 R0
-Z15 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd
-Z16 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd
+Z15 8C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd
+Z16 FC:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd
 l0
 L5 1
 V5BLa:6JC>_^da`MAjejk82
 !s100 T2PXgVNeLo1;>11@KD?<T0
 R7
 31
-Z17 !s110 1681097195
+R8
 !i10b 1
-Z18 !s108 1681097195.000000
-Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd|
-!s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd|
+Z17 !s108 1682013577.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd|
+!s107 C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd|
 !i113 1
 R12
 R13
@@ -88,11 +88,11 @@ VK_hA=4ndL]5Ga@ILPKMbj2
 !s100 G5oYHZiUVCRB8O78Bnmfi3
 R7
 31
-R17
+R8
 !i10b 1
+R17
 R18
-R19
-Z20 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd|
+Z19 !s107 C:/Users/joaop/Documents/Logica_Reconfig/Hamming_weight/tb_hamming_weight.vhd|
 !i113 1
 R12
 R13

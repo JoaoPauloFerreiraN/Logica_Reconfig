@@ -1,0 +1,32 @@
+port x: troca para std_logic vector (n-1 to 0)
+	y
+
+
+arquiteture
+signal rds: intiger 0 to n
+
+y por rds (<=vet_s(n-1));
+
+
+gen for i om n-1 downto generate
+    y(i) <= '1' when i >= n-rds else '0';
+end gererate
+
+
+
+
+
+
+
+y <= vec_aux;
+
+
+
+--y (N downto rds) <== (others => '1');
+
+
+
+
+na td
+
+ty e ty é igual e muda o nome 
