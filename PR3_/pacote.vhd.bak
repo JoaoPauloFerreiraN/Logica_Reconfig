@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package pacote is 
+	component somador is 
+	end component;
+	component subtrator is 
+	end component;
+	component mux2x1 is 
+		port (op: in std_logic;
+				 a: in integer ;
+				 b: in integer ;
+				 y: out  std_logic);
+	end component;
+end package;
+	

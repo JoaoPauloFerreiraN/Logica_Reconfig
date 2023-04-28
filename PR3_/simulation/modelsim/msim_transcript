@@ -1,0 +1,111 @@
+# Reading pref.tcl
+# do circuitoSomaSub_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:36 on Apr 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pacote
+# End time: 18:05:36 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:36 on Apr 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux2x1
+# -- Compiling architecture arq of mux2x1
+# End time: 18:05:36 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:36 on Apr 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity subtrator
+# -- Compiling architecture arq of subtrator
+# End time: 18:05:36 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:36 on Apr 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity somador
+# -- Compiling architecture arq of somador
+# End time: 18:05:37 on Apr 28,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:37 on Apr 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pacote
+# -- Compiling entity circuitoSomaSub
+# -- Compiling architecture arq of circuitoSomaSub
+# -- Loading entity somador
+# -- Loading entity subtrator
+# -- Loading entity mux2x1
+# End time: 18:05:37 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:05:37 on Apr 28,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tbcircuitoSomaSub
+# -- Compiling architecture tbarq of tbcircuitoSomaSub
+# -- Loading package pacote
+# -- Loading entity circuitoSomaSub
+# End time: 18:05:37 on Apr 28,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  tbcircuitoSomaSub
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=""+acc"" tbcircuitoSomaSub 
+# Start time: 18:05:37 on Apr 28,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pacote
+# Loading work.tbcircuitosomasub(tbarq)
+# Loading work.circuitosomasub(arq)
+# Loading work.somador(arq)
+# Loading work.subtrator(arq)
+# Loading work.mux2x1(arq)
+# ** Fatal: (vsim-3421) Value -2147483648 for y is out of range 0 to 3.
+#    Time: 0 ps  Iteration: 0  Signal: /tbcircuitosomasub/uut/respSub File: C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd Line: 15
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./circuitoSomaSub_run_msim_rtl_vhdl.do PAUSED at line 16
+# End time: 18:11:27 on Apr 28,2023, Elapsed time: 0:05:50
+# Errors: 1, Warnings: 0

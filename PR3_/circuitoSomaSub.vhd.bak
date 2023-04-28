@@ -1,0 +1,17 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity circuitoSomaSub is
+	generic (N: integer :=3);
+	port (a,b: in std_logic_vector (N-1 downto 0);
+			  op: in std_logic; -- 0 somador e 1 subtrator
+			  y: out std_logic_vector (N downto 0));
+end entity
+
+
+architecture arq is 
+	
+	begin
+
+end arq;
