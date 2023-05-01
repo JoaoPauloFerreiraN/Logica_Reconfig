@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity subtrator is 
 	generic (N: integer := 3);
 	port (a,b: in  std_logic_vector (N-1 downto 0);
-			y: out integer);
+			y: out integer range (0-((2**(N+1))-2)/2) to ((2**(N+1))-2)/2);
 end subtrator; 
 architecture arq of subtrator is 
 	signal ia, ib: integer range 0 to 2**N-1;

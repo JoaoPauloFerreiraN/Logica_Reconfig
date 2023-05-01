@@ -12,28 +12,28 @@
 # 
 # vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:05:36 on Apr 28,2023
+# Start time: 18:59:56 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package pacote
-# End time: 18:05:36 on Apr 28,2023, Elapsed time: 0:00:00
+# End time: 18:59:56 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:05:36 on Apr 28,2023
+# Start time: 18:59:57 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux2x1
 # -- Compiling architecture arq of mux2x1
-# End time: 18:05:36 on Apr 28,2023, Elapsed time: 0:00:00
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:05:36 on Apr 28,2023
+# Start time: 18:59:57 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -41,11 +41,11 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity subtrator
 # -- Compiling architecture arq of subtrator
-# End time: 18:05:36 on Apr 28,2023, Elapsed time: 0:00:00
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:05:36 on Apr 28,2023
+# Start time: 18:59:57 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -53,11 +53,33 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity somador
 # -- Compiling architecture arq of somador
-# End time: 18:05:37 on Apr 28,2023, Elapsed time: 0:00:01
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:59:57 on May 01,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder7Entrada
+# -- Compiling architecture arq of Decoder7Entrada
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:59:57 on May 01,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder7Saida
+# -- Compiling architecture arq of Decoder7Saida
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:05:37 on Apr 28,2023
+# Start time: 18:59:57 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -69,12 +91,14 @@
 # -- Loading entity somador
 # -- Loading entity subtrator
 # -- Loading entity mux2x1
-# End time: 18:05:37 on Apr 28,2023, Elapsed time: 0:00:00
+# -- Loading entity Decoder7Entrada
+# -- Loading entity Decoder7Saida
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:05:37 on Apr 28,2023
+# Start time: 18:59:57 on May 01,2023
 # vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -84,12 +108,12 @@
 # -- Compiling architecture tbarq of tbcircuitoSomaSub
 # -- Loading package pacote
 # -- Loading entity circuitoSomaSub
-# End time: 18:05:37 on Apr 28,2023, Elapsed time: 0:00:00
+# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  tbcircuitoSomaSub
 # vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=""+acc"" tbcircuitoSomaSub 
-# Start time: 18:05:37 on Apr 28,2023
+# Start time: 18:59:58 on May 01,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -100,12 +124,27 @@
 # Loading work.somador(arq)
 # Loading work.subtrator(arq)
 # Loading work.mux2x1(arq)
-# ** Fatal: (vsim-3421) Value -2147483648 for y is out of range 0 to 3.
-#    Time: 0 ps  Iteration: 0  Signal: /tbcircuitosomasub/uut/respSub File: C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd Line: 15
-# FATAL ERROR while loading design
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./circuitoSomaSub_run_msim_rtl_vhdl.do PAUSED at line 16
-# End time: 18:11:27 on Apr 28,2023, Elapsed time: 0:05:50
-# Errors: 1, Warnings: 0
+# Loading work.decoder7entrada(arq)
+# Loading work.decoder7saida(arq)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Joao  Hostname: DESKTOP-GVIV4J4  ProcessID: 10316
+#           Attempting to use alternate WLF file "./wlftmq7zq3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftmq7zq3
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 640 ns
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbcircuitosomasub/uut/map_2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbcircuitosomasub/uut/map_2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbcircuitosomasub/uut/map_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbcircuitosomasub/uut/map_1
+# End time: 19:01:49 on May 01,2023, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 6

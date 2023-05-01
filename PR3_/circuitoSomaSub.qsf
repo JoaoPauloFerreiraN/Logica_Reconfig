@@ -37,8 +37,8 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "MAX V"
-set_global_assignment -name DEVICE auto
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
 set_global_assignment -name TOP_LEVEL_ENTITY circuitoSomaSub
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:09:32  APRIL 27, 2023"
@@ -57,6 +57,52 @@ set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -sectio
 set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tbcircuitoSomaSub -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME tbcircuitoSomaSub -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tbcircuitoSomaSub
-set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "160 ns" -section_id tbcircuitoSomaSub
+set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "640 ns" -section_id tbcircuitoSomaSub
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tbcircuitoSomaSub -section_id tbcircuitoSomaSub
+set_global_assignment -name VHDL_FILE Decoder7Entrada.vhd
+set_global_assignment -name VHDL_FILE Decoder7Saida.vhd
 set_global_assignment -name EDA_TEST_BENCH_FILE tbcircuitoSomaSub.vhd -section_id tbcircuitoSomaSub
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_location_assignment PIN_F15 -to op
+set_location_assignment PIN_B14 -to a[2]
+set_location_assignment PIN_A14 -to a[1]
+set_location_assignment PIN_A13 -to a[0]
+set_location_assignment PIN_D12 -to b[2]
+set_location_assignment PIN_C11 -to b[1]
+set_location_assignment PIN_C10 -to b[0]
+set_location_assignment PIN_J20 -to Hex1[0]
+set_location_assignment PIN_K20 -to Hex1[1]
+set_location_assignment PIN_L18 -to Hex1[2]
+set_location_assignment PIN_N18 -to Hex1[3]
+set_location_assignment PIN_M20 -to Hex1[4]
+set_location_assignment PIN_N19 -to Hex1[5]
+set_location_assignment PIN_N20 -to Hex1[6]
+set_location_assignment PIN_F18 -to Hex2[0]
+set_location_assignment PIN_E20 -to Hex2[1]
+set_location_assignment PIN_E19 -to Hex2[2]
+set_location_assignment PIN_J18 -to Hex2[3]
+set_location_assignment PIN_H19 -to Hex2[4]
+set_location_assignment PIN_F19 -to Hex2[5]
+set_location_assignment PIN_F20 -to Hex2[6]
+set_location_assignment PIN_C18 -to Hex3[0]
+set_location_assignment PIN_D18 -to Hex3[1]
+set_location_assignment PIN_E18 -to Hex3[2]
+set_location_assignment PIN_B16 -to Hex3[3]
+set_location_assignment PIN_A17 -to Hex3[4]
+set_location_assignment PIN_A18 -to Hex3[5]
+set_location_assignment PIN_B17 -to Hex3[6]
+set_location_assignment PIN_F21 -to SIG[0]
+set_location_assignment PIN_E22 -to SIG[1]
+set_location_assignment PIN_E21 -to SIG[2]
+set_location_assignment PIN_C19 -to SIG[3]
+set_location_assignment PIN_C20 -to SIG[4]
+set_location_assignment PIN_D19 -to SIG[5]
+set_location_assignment PIN_E17 -to SIG[6]
+set_location_assignment PIN_C14 -to Hex4[0]
+set_location_assignment PIN_E15 -to Hex4[1]
+set_location_assignment PIN_C15 -to Hex4[2]
+set_location_assignment PIN_C16 -to Hex4[3]
+set_location_assignment PIN_E16 -to Hex4[4]
+set_location_assignment PIN_D17 -to Hex4[5]
+set_location_assignment PIN_C17 -to Hex4[6]
