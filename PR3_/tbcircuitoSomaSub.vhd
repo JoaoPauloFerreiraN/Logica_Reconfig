@@ -22,7 +22,7 @@ architecture tbarq of tbcircuitoSomaSub is
 			process
 					variable i, j: integer range 0 to 2**M-1;
 			begin
-					top <= '1';
+					top <= '0';
 					for i in 0 to 2**M-1 loop
 						for j in 0 to 2**M-1 loop
 							ta <= std_logic_vector(to_unsigned(i,M));

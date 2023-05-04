@@ -8,35 +8,35 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/simulation/modelsim
+Z0 dC:/Users/joaop/Documents/Logica_Reconfig/PR3_/simulation/modelsim
 Ecircuitosomasub
-Z1 w1682977090
-Z2 DPx4 work 6 pacote 0 22 YX?3PSiT>OH55JFfUMJ1i3
+Z1 w1683215912
+Z2 DPx4 work 6 pacote 0 22 515]hnijBOOQTeiRLjFk@0
 Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 6
 R0
-Z6 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd
-Z7 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd
+Z6 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd
+Z7 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd
 l0
 L6 1
 VGTmlJeYYm`5WINZ>?S96N3
 !s100 F<8mOAd<L=]>4bX3anTN;3
 Z8 OV;C;2020.1;71
 31
-Z9 !s110 1682978397
+Z9 !s110 1683216115
 !i10b 1
-Z10 !s108 1682978397.000000
-Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd|
-Z12 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd|
+Z10 !s108 1683216115.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd|
+Z12 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd|
 !i113 1
 Z13 o-93 -work work
 Z14 tExplicit 1 CvgOpt 0
 Aarq
-Z15 DEx4 work 13 decoder7saida 0 22 S:5PbkVAOVziA>i9BRd5o2
+Z15 DEx4 work 13 decoder7saida 0 22 nKCRGYd[MYK7Bj4X3LE?U2
 Z16 DEx4 work 15 decoder7entrada 0 22 ?G7jOilid]`VAiQ0mSg<22
-Z17 DEx4 work 6 mux2x1 0 22 h3YV<9EkjmH6eI7U6LWh>1
+Z17 DEx4 work 6 mux2x1 0 22 ^9`<;cIk_DEefJ<3oHAck2
 Z18 DEx4 work 9 subtrator 0 22 SaYz^OQ[Q7?QfD>H5ojnU3
 Z19 DEx4 work 7 somador 0 22 hcIKUmHJkik[InUS0lN@J2
 R2
@@ -46,9 +46,9 @@ R5
 Z20 DEx4 work 15 circuitosomasub 0 22 GTmlJeYYm`5WINZ>?S96N3
 !i122 6
 l24
-L19 21
-VUNdaahR5YmQYXcTJ`^5gO1
-!s100 @65oLD0HlCS_YI6Ym`0Cd0
+L19 27
+VWJYjnM9IIOi_AB=^?aT1X0
+!s100 Ho6_3B2?<AN;2ccgL:5I72
 R8
 31
 R9
@@ -60,13 +60,13 @@ R12
 R13
 R14
 Edecoder7entrada
-Z21 w1682971387
+Z21 w1683058564
 R4
 R5
 !i122 4
 R0
-Z22 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd
-Z23 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd
+Z22 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd
+Z23 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd
 l0
 L4 1
 V?G7jOilid]`VAiQ0mSg<22
@@ -76,8 +76,8 @@ R8
 R9
 !i10b 1
 R10
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
-Z25 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
+Z25 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
 !i113 1
 R13
 R14
@@ -101,24 +101,24 @@ R25
 R13
 R14
 Edecoder7saida
-Z26 w1682978268
+Z26 w1683215682
 R4
 R5
 !i122 5
 R0
-Z27 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd
-Z28 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd
+Z27 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd
+Z28 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd
 l0
 L4 1
-VS:5PbkVAOVziA>i9BRd5o2
-!s100 PeUhMLX@T80655nFCc9Wl0
+VnKCRGYd[MYK7Bj4X3LE?U2
+!s100 5m8mgzabY>QkNWkEnJWDX2
 R8
 31
 R9
 !i10b 1
 R10
-Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
-Z30 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
+Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
+Z30 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
 !i113 1
 R13
 R14
@@ -142,24 +142,24 @@ R30
 R13
 R14
 Emux2x1
-Z31 w1682969205
+Z31 w1683215615
 R4
 R5
 !i122 1
 R0
-Z32 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd
-Z33 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd
+Z32 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd
+Z33 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd
 l0
 L4 1
-Vh3YV<9EkjmH6eI7U6LWh>1
-!s100 1z4W4VimTkf`U^_ln26=P1
+V^9`<;cIk_DEefJ<3oHAck2
+!s100 HVL1HSOR2OldHHKlG?<S70
 R8
 31
-R9
+Z34 !s110 1683216114
 !i10b 1
-R10
-Z34 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd|
-Z35 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd|
+Z35 !s108 1683216114.000000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd|
+Z37 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd|
 !i113 1
 R13
 R14
@@ -174,11 +174,11 @@ VT:h4RZH7IIHZ[XCni7kEJ3
 !s100 hT=EUT2EEB83dB0Jhd[6=2
 R8
 31
-R9
-!i10b 1
-R10
 R34
+!i10b 1
 R35
+R36
+R37
 !i113 1
 R13
 R14
@@ -186,33 +186,33 @@ Ppacote
 R4
 R5
 !i122 0
-w1682978017
+w1683215653
 R0
-8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd
-FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd
+8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd
+FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd
 l0
 L4 1
-VYX?3PSiT>OH55JFfUMJ1i3
-!s100 daa56<AheAjl:mNA<PPo^0
+V515]hnijBOOQTeiRLjFk@0
+!s100 Y@nBX^d9cJB6OYkDkMEa03
 R8
 31
-!s110 1682978396
+R34
 !i10b 1
-!s108 1682978396.000000
-!s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd|
-!s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd|
+R35
+!s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd|
+!s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd|
 !i113 1
 R13
 R14
 Esomador
-Z36 w1682967658
+R21
 R3
 R4
 R5
 !i122 3
 R0
-Z37 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd
-Z38 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd
+Z38 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd
+Z39 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd
 l0
 L5 1
 VhcIKUmHJkik[InUS0lN@J2
@@ -222,8 +222,8 @@ R8
 R9
 !i10b 1
 R10
-Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd|
-Z40 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd|
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd|
+Z41 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd|
 !i113 1
 R13
 R14
@@ -242,20 +242,20 @@ R8
 R9
 !i10b 1
 R10
-R39
 R40
+R41
 !i113 1
 R13
 R14
 Esubtrator
-Z41 w1682968716
+R21
 R3
 R4
 R5
 !i122 2
 R0
-Z42 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd
-Z43 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd
+Z42 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd
+Z43 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd
 l0
 L5 1
 VSaYz^OQ[Q7?QfD>H5ojnU3
@@ -264,9 +264,9 @@ R8
 31
 R9
 !i10b 1
-R10
-Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd|
-Z45 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd|
+R35
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd|
+Z45 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd|
 !i113 1
 R13
 R14
@@ -284,21 +284,21 @@ R8
 31
 R9
 !i10b 1
-R10
+R35
 R44
 R45
 !i113 1
 R13
 R14
 Etbcircuitosomasub
-Z46 w1682978369
+Z46 w1683216097
 R3
 R4
 R5
 !i122 7
 R0
-Z47 8C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd
-Z48 FC:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd
+Z47 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd
+Z48 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd
 l0
 L5 1
 Vc4DaPf?F16_I_ci<?DoV32
@@ -308,8 +308,8 @@ R8
 R9
 !i10b 1
 R10
-Z49 !s90 -reportprogress|300|-93|-work|work|C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd|
-!s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd|
+Z49 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd|
+!s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd|
 !i113 1
 R13
 R14
@@ -323,15 +323,15 @@ DEx4 work 17 tbcircuitosomasub 0 22 c4DaPf?F16_I_ci<?DoV32
 !i122 7
 l18
 L8 27
-V0C^NFTnL3e]QlR@<ba:3=1
-!s100 4WJ8nMQHDcLdYLZQ6fzX63
+VWAe4eX@QJo9WT2EY4mlfV1
+!s100 GRcCaR8[6BRHg:T7d3^MJ1
 R8
 31
 R9
 !i10b 1
 R10
 R49
-Z50 !s107 C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd|
+Z50 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd|
 !i113 1
 R13
 R14

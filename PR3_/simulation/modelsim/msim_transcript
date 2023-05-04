@@ -10,77 +10,77 @@
 # Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:56 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd 
+# Start time: 13:01:54 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package pacote
-# End time: 18:59:56 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:54 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd 
+# Start time: 13:01:54 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity mux2x1
 # -- Compiling architecture arq of mux2x1
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:54 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd 
+# Start time: 13:01:54 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity subtrator
 # -- Compiling architecture arq of subtrator
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:55 on May 04,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd 
+# Start time: 13:01:55 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package NUMERIC_STD
 # -- Compiling entity somador
 # -- Compiling architecture arq of somador
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:55 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd 
+# Start time: 13:01:55 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Decoder7Entrada
 # -- Compiling architecture arq of Decoder7Entrada
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:55 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd 
+# Start time: 13:01:55 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Decoder7Saida
 # -- Compiling architecture arq of Decoder7Saida
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:55 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd 
+# Start time: 13:01:55 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -93,13 +93,13 @@
 # -- Loading entity mux2x1
 # -- Loading entity Decoder7Entrada
 # -- Loading entity Decoder7Saida
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:55 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd}
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 18:59:57 on May 01,2023
-# vcom -reportprogress 300 -93 -work work C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd 
+# Start time: 13:01:55 on May 04,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
@@ -108,12 +108,12 @@
 # -- Compiling architecture tbarq of tbcircuitoSomaSub
 # -- Loading package pacote
 # -- Loading entity circuitoSomaSub
-# End time: 18:59:57 on May 01,2023, Elapsed time: 0:00:00
+# End time: 13:01:55 on May 04,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  tbcircuitoSomaSub
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=""+acc"" tbcircuitoSomaSub 
-# Start time: 18:59:58 on May 01,2023
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  tbcircuitoSomaSub
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tbcircuitoSomaSub 
+# Start time: 13:01:55 on May 04,2023
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -130,9 +130,9 @@
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Joao  Hostname: DESKTOP-GVIV4J4  ProcessID: 10316
-#           Attempting to use alternate WLF file "./wlftmq7zq3".
+#           Attempting to use alternate WLF file "./wlftxdma8k".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftmq7zq3
+#           Using alternate file: ./wlftxdma8k
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -146,5 +146,61 @@
 #    Time: 0 ps  Iteration: 0  Instance: /tbcircuitosomasub/uut/map_1
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /tbcircuitosomasub/uut/map_1
-# End time: 19:01:49 on May 01,2023, Elapsed time: 0:01:51
-# Errors: 0, Warnings: 6
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 150 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 220 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 230 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 290 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 300 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 310 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 360 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 370 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 380 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 390 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 430 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 440 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 450 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 460 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 470 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 500 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 510 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 520 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 530 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 540 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 550 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 570 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 580 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 590 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 600 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 610 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 620 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# ** Warning: NUMERIC_STD.TO_SIGNED: vector truncated
+#    Time: 630 ns  Iteration: 4  Instance: /tbcircuitosomasub/uut
+# End time: 13:02:29 on May 04,2023, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 34

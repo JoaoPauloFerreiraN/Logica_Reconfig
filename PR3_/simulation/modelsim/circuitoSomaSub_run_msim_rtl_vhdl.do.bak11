@@ -5,17 +5,17 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/pacote.vhd}
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/mux2x1.vhd}
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/subtrator.vhd}
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/somador.vhd}
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Entrada.vhd}
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/Decoder7Saida.vhd}
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/circuitoSomaSub.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd}
 
-vcom -93 -work work {C:/Users/Joao/Documents/GitHub/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd}
+vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd}
 
-vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  tbcircuitoSomaSub
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  tbcircuitoSomaSub
 
 add wave *
 view structure
