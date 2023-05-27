@@ -1,0 +1,32 @@
+library ieee.all;
+use ieee.std_logic_1164.all;
+
+entity cloclk is 
+
+end entity;
+
+architecture arq of cloclk is
+
+		constant N: integer := 10; --50000000;
+	begin
+		process (mclk,rest)
+			variable i: integer range 1 to N := 1; -- contador;
+			variable v_clk1, v_clk2: std_logic :='0'; -- clock 2 - 2hz
+			begin
+				if(rest = '0') then -- se o reset for precionado os clock vao para baixo e i volta pro inicio
+					i := 1;
+					v_clk1 := '0';
+					v_clk2 := '0';
+				elsif (mclk'event and mclk = '1') then i := i + 1; -- se o clock master mudar de estado de 0 apra 1, entao o contador conta
+					if (i = N/2) then-- se ele chegar na metade, ele zera e, 
+						i:= 1; -- zera contagem
+						v_clk1 := not(v_clk1); -- O clk1 muda de estado
+						v_clk2 := not(v_clk2); -- O clk2 muda de estado
+					elsif (i=N/4) then
+						v_clk2 := not(v_clk2); -- O clk2 muda de estado
+					end if;
+					clk1 <= v_clk1;
+					clk2 <= v_clk2;
+				end if;
+	end process;
+end architecture;

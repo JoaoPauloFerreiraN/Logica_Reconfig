@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 entity tbcircuitoSomaSub is
-		generic (M: integer := 3);
+		generic (M: integer := 2);
 end entity;
 architecture tbarq of tbcircuitoSomaSub is 
 		signal ta,tb: std_logic_vector (M-1 downto 0);

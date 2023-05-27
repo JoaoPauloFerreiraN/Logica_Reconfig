@@ -43,13 +43,13 @@ architecture arq of Decoder7Saida is
 				"1001100" when a = 14 else -- 14
 				"0100100"; -- 15
 								
-	 HEX3 <= "1001110" when a = (0-1) else -- 1
-				"1001110" when a = (0-2) else -- 2
-				"1001110" when a = (0-3) else -- 3
-				"1001110" when a = (0-4) else -- 4
-				"1001110" when a = (0-5) else -- 5
-				"1001110" when a = (0-6) else -- 6
-				"1001110" when a = (0-7) else -- 7
+	 HEX3 <= "1111110" when a = (0-1) else -- 1
+				"1111110" when a = (0-2) else -- 2
+				"1111110" when a = (0-3) else -- 3
+				"1111110" when a = (0-4) else -- 4
+				"1111110" when a = (0-5) else -- 5
+				"1111110" when a = (0-6) else -- 6
+				"1111110" when a = (0-7) else -- 7
 				"0000001" when a = 0 else
 				"0000001" when a = 1 else
 				"0000001" when a = 2 else

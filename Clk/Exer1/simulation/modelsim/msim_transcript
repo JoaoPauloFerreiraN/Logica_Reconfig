@@ -1,0 +1,84 @@
+# Reading pref.tcl
+# do dois_clck_diff_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/pacote.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:47 on May 25,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/pacote.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package pacote
+# End time: 14:58:47 on May 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/cloclk.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:47 on May 25,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/cloclk.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cloclk
+# -- Compiling architecture arq of cloclk
+# End time: 14:58:47 on May 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/pisc_led.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:47 on May 25,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/pisc_led.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pacote
+# -- Compiling entity pisc_led
+# -- Compiling architecture arq of pisc_led
+# -- Loading entity cloclk
+# End time: 14:58:47 on May 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/tbpisc_led.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:58:47 on May 25,2023
+# vcom -reportprogress 300 -93 -work work C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/tbpisc_led.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tbpisc_led
+# -- Compiling architecture tb_arq of tbpisc_led
+# ** Warning: C:/Users/joaop/Documents/Logica_Reconfig/Clk/Exer1/tbpisc_led.vhd(9): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading package NUMERIC_STD
+# -- Loading package pacote
+# -- Loading entity pisc_led
+# End time: 14:58:47 on May 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  tbpisc_led
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=""+acc"" tbpisc_led 
+# Start time: 14:58:47 on May 25,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pacote
+# Loading work.tbpisc_led(tb_arq)
+# Loading work.pisc_led(arq)
+# Loading work.cloclk(arq)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 10 sec
+# End time: 15:02:43 on May 25,2023, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 0

@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+package pacote is 
+	component cloclk is 
+		port(mclk, rest: in std_logic;
+				freq: in integer;
+			  clk: out std_logic);
+		end component;
+		
+end package;

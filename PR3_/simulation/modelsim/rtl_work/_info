@@ -25,9 +25,9 @@ VGTmlJeYYm`5WINZ>?S96N3
 !s100 F<8mOAd<L=]>4bX3anTN;3
 Z8 OV;C;2020.1;71
 31
-Z9 !s110 1683216115
+Z9 !s110 1683237375
 !i10b 1
-Z10 !s108 1683216115.000000
+Z10 !s108 1683237375.000000
 Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd|
 Z12 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/circuitoSomaSub.vhd|
 !i113 1
@@ -73,11 +73,11 @@ V?G7jOilid]`VAiQ0mSg<22
 !s100 F?5Sf=;<>4aMn5_C20kaH0
 R8
 31
-R9
+Z24 !s110 1683237374
 !i10b 1
-R10
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
-Z25 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
+Z25 !s108 1683237374.000000
+Z26 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
+Z27 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Entrada.vhd|
 !i113 1
 R13
 R14
@@ -92,22 +92,22 @@ V3Z^j1L2F@RPAQgHn>l3Do0
 !s100 dA>H5^B;PHVBB=ScLaBY@2
 R8
 31
-R9
-!i10b 1
-R10
 R24
+!i10b 1
 R25
+R26
+R27
 !i113 1
 R13
 R14
 Edecoder7saida
-Z26 w1683215682
+Z28 w1683215682
 R4
 R5
 !i122 5
 R0
-Z27 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd
-Z28 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd
+Z29 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd
+Z30 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd
 l0
 L4 1
 VnKCRGYd[MYK7Bj4X3LE?U2
@@ -117,8 +117,8 @@ R8
 R9
 !i10b 1
 R10
-Z29 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
-Z30 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
+Z32 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/Decoder7Saida.vhd|
 !i113 1
 R13
 R14
@@ -136,28 +136,28 @@ R8
 R9
 !i10b 1
 R10
-R29
-R30
+R31
+R32
 !i113 1
 R13
 R14
 Emux2x1
-Z31 w1683215615
+Z33 w1683215615
 R4
 R5
 !i122 1
 R0
-Z32 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd
-Z33 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd
+Z34 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd
+Z35 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd
 l0
 L4 1
 V^9`<;cIk_DEefJ<3oHAck2
 !s100 HVL1HSOR2OldHHKlG?<S70
 R8
 31
-Z34 !s110 1683216114
+R24
 !i10b 1
-Z35 !s108 1683216114.000000
+R25
 Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd|
 Z37 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/mux2x1.vhd|
 !i113 1
@@ -174,9 +174,9 @@ VT:h4RZH7IIHZ[XCni7kEJ3
 !s100 hT=EUT2EEB83dB0Jhd[6=2
 R8
 31
-R34
+R24
 !i10b 1
-R35
+R25
 R36
 R37
 !i113 1
@@ -196,9 +196,9 @@ V515]hnijBOOQTeiRLjFk@0
 !s100 Y@nBX^d9cJB6OYkDkMEa03
 R8
 31
-R34
+R24
 !i10b 1
-R35
+R25
 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd|
 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/pacote.vhd|
 !i113 1
@@ -219,9 +219,9 @@ VhcIKUmHJkik[InUS0lN@J2
 !s100 ;>So4_aAe[=AAWK0Q8OEL3
 R8
 31
-R9
+R24
 !i10b 1
-R10
+R25
 Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd|
 Z41 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/somador.vhd|
 !i113 1
@@ -239,9 +239,9 @@ V0@Fa^O=Z>?jllPd]Cm^i=3
 !s100 @=;0_]VD22hPoiz]akkbo0
 R8
 31
-R9
+R24
 !i10b 1
-R10
+R25
 R40
 R41
 !i113 1
@@ -262,9 +262,9 @@ VSaYz^OQ[Q7?QfD>H5ojnU3
 !s100 n;ZeU9cH3S`dJ]N1_2lP12
 R8
 31
-R9
+R24
 !i10b 1
-R35
+R25
 Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd|
 Z45 !s107 C:/Users/joaop/Documents/Logica_Reconfig/PR3_/subtrator.vhd|
 !i113 1
@@ -282,16 +282,16 @@ VLN`7XAAnEJQWJ_@?CWVH12
 !s100 :;N]6oVWFg^cDYk@ZIN4F1
 R8
 31
-R9
+R24
 !i10b 1
-R35
+R25
 R44
 R45
 !i113 1
 R13
 R14
 Etbcircuitosomasub
-Z46 w1683216097
+Z46 w1683237358
 R3
 R4
 R5
@@ -301,8 +301,8 @@ Z47 8C:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd
 Z48 FC:/Users/joaop/Documents/Logica_Reconfig/PR3_/tbcircuitoSomaSub.vhd
 l0
 L5 1
-Vc4DaPf?F16_I_ci<?DoV32
-!s100 Y[;Zl>j@5ajob<_A3b]iG1
+VfVE;I;W:QG6]hZ[F4Z_`Y3
+!s100 [eTeE]6d18Gc@T4aN8GgH1
 R8
 31
 R9
@@ -319,7 +319,7 @@ R20
 R3
 R4
 R5
-DEx4 work 17 tbcircuitosomasub 0 22 c4DaPf?F16_I_ci<?DoV32
+DEx4 work 17 tbcircuitosomasub 0 22 fVE;I;W:QG6]hZ[F4Z_`Y3
 !i122 7
 l18
 L8 27

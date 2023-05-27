@@ -1,12 +1,12 @@
-Fitter Status : Successful - Tue May 02 17:23:51 2023
+Fitter Status : Successful - Tue May 09 15:43:45 2023
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : circuitoSomaSub
 Top-level Entity Name : circuitoSomaSub
 Family : MAX 10
 Device : 10M50DAF484C7G
 Timing Models : Final
-Total logic elements : 106 / 49,760 ( < 1 % )
-    Total combinational functions : 106 / 49,760 ( < 1 % )
+Total logic elements : 109 / 49,760 ( < 1 % )
+    Total combinational functions : 109 / 49,760 ( < 1 % )
     Dedicated logic registers : 0 / 49,760 ( 0 % )
 Total registers : 0
 Total pins : 46 / 360 ( 13 % )

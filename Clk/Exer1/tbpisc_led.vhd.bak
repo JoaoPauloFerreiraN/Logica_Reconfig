@@ -1,0 +1,20 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity tbpisc_led is
+end entity;
+
+architecture tb_arq of tbpisc_led is
+	signal mclk, rest, clk1, clk2: std_logic:= '0';
+	constant mclk_period: time := 1000ms;
+	begin
+		uut: entity work.pisc_led(arq)
+		port map (mclk, rest, clk1, clk2);
+		process 
+			begin 
+				mclk <= '0';
+				wait for mclk_period/2;
+				mclk <= '1';
+				wait for mclk_period/2;
+		end process;
+end	
