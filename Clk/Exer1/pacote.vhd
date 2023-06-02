@@ -18,5 +18,20 @@ package pacote is
 			port(clkc, reset: in std_logic;
 					set_seg: out std_logic_vector(0 to 6));
 	end component;
+	
+	component modulador is
+			port (clk, reset: in std_logic;
+					Hex2, Hex1, Hex0: out integer);
+	end component;
+	
+	component numtoseg is 
+			port(num: in integer range 0 to 9;
+				  Hex: out std_logic_vector(0 to 7));
+   end component;
+	
+	component freqop is
+			port (freq_op: in std_logic_vector ( 1 downto 0);
+				vaul: out integer);
+	end component;
 		
 end package;
