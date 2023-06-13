@@ -102,7 +102,6 @@ set_location_assignment PIN_N19 -to Hex5[5]
 set_location_assignment PIN_N20 -to Hex5[6]
 set_location_assignment PIN_L19 -to Hex5[7]
 set_global_assignment -name VHDL_FILE pacote.vhd
-set_global_assignment -name VHDL_FILE cont7.vhd
 set_global_assignment -name VHDL_FILE cloclk.vhd
 set_global_assignment -name VHDL_FILE cont_modulo.vhd
 set_global_assignment -name VHDL_FILE modulador.vhd

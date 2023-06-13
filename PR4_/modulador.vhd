@@ -23,9 +23,5 @@ architecture arq of modulador is
 				Hex2 <= cont/100;
 				Hex1 <= (cont mod 100 )/ 10;
 				Hex0 <= (cont mod 100 ) mod 10;
---				aux := cont/100;		
---				Hex2 <= aux;
---				Hex1 <= (aux mod 100)/ 10;
---				Hex0 <= (aux mod 100) mod 10;
 			end process;				
 end architecture;

@@ -18,14 +18,12 @@ architecture arq of cont_modulo is
 		map_1: entity work.cloclk(arq)
 				 port map (mclk, reset, freq, clock);				 
 		map_2: entity work.modulador(arq)
-				 port map (clock, reset, numMSB, num, numLSB);	
-				 		 
-				 
-		map_4: entity work.numtoseg(arq)
+				 port map (clock, reset, numMSB, num, numLSB);			 
+		map_3: entity work.numtoseg(arq)
 				 port map(numMSB, Hex2);
-		map_5: entity work.numtoseg(arq)
+		map_4: entity work.numtoseg(arq)
 				 port map(num, Hex1);
-		map_6: entity work.numtoseg(arq)
+		map_5: entity work.numtoseg(arq)
 				 port map(numLSB, Hex0);
 				 
 end architecture;

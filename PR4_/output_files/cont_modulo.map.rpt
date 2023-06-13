@@ -1,5 +1,5 @@
 Analysis & Synthesis report for cont_modulo
-Fri Jun 02 17:24:59 2023
+Tue Jun 13 18:42:42 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -51,7 +51,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jun 02 17:24:59 2023       ;
+; Analysis & Synthesis Status        ; Successful - Tue Jun 13 18:42:42 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; cont_modulo                                 ;
 ; Top-level Entity Name              ; cont_modulo                                 ;
@@ -269,9 +269,9 @@ https://fpgasoftware.intel.com/eula.
 ;          |lpm_divide_2nl:auto_generated|  ; 138 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|modulador:map_2|lpm_divide:Mod1|lpm_divide_2nl:auto_generated                                                   ; lpm_divide_2nl      ; work         ;
 ;             |sign_div_unsign_1nh:divider| ; 138 (0)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|modulador:map_2|lpm_divide:Mod1|lpm_divide_2nl:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh ; work         ;
 ;                |alt_u_div_cke:divider|    ; 138 (138)           ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|modulador:map_2|lpm_divide:Mod1|lpm_divide_2nl:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_cke:divider ; alt_u_div_cke       ; work         ;
+;    |numtoseg:map_3|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|numtoseg:map_3                                                                                                  ; numtoseg            ; work         ;
 ;    |numtoseg:map_4|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|numtoseg:map_4                                                                                                  ; numtoseg            ; work         ;
 ;    |numtoseg:map_5|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|numtoseg:map_5                                                                                                  ; numtoseg            ; work         ;
-;    |numtoseg:map_6|                       ; 7 (7)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |cont_modulo|numtoseg:map_6                                                                                                  ; numtoseg            ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -306,9 +306,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |cont_modulo|numtoseg:map_3|Hex[5] ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |cont_modulo|numtoseg:map_4|Hex[5] ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |cont_modulo|numtoseg:map_5|Hex[5] ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |cont_modulo|numtoseg:map_6|Hex[6] ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |cont_modulo|numtoseg:map_5|Hex[6] ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------+
 
 
@@ -478,15 +478,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri Jun 02 17:24:43 2023
+    Info: Processing started: Tue Jun 13 18:42:26 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cont_modulo -c cont_modulo
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 0 entities, in source file pacote.vhd
     Info (12022): Found design unit 1: pacote File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/pacote.vhd Line: 4
-Info (12021): Found 2 design units, including 1 entities, in source file cont7.vhd
-    Info (12022): Found design unit 1: cont7-arq File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont7.vhd Line: 10
-    Info (12023): Found entity 1: cont7 File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont7.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file cloclk.vhd
     Info (12022): Found design unit 1: cloclk-arq File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cloclk.vhd Line: 10
     Info (12023): Found entity 1: cloclk File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cloclk.vhd Line: 4
@@ -506,7 +503,7 @@ Info (12127): Elaborating entity "cont_modulo" for the top level hierarchy
 Info (12129): Elaborating entity "freqop" using architecture "A:arq" for hierarchy "freqop:map_0" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont_modulo.vhd Line: 16
 Info (12129): Elaborating entity "cloclk" using architecture "A:arq" for hierarchy "cloclk:map_1" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont_modulo.vhd Line: 18
 Info (12129): Elaborating entity "modulador" using architecture "A:arq" for hierarchy "modulador:map_2" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont_modulo.vhd Line: 20
-Info (12129): Elaborating entity "numtoseg" using architecture "A:arq" for hierarchy "numtoseg:map_4" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont_modulo.vhd Line: 24
+Info (12129): Elaborating entity "numtoseg" using architecture "A:arq" for hierarchy "numtoseg:map_3" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/cont_modulo.vhd Line: 22
 Info (278001): Inferred 5 megafunctions from design logic
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "modulador:map_2|Div0" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/modulador.vhd Line: 23
     Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "modulador:map_2|Mod0" File: C:/Users/joaop/Documents/Logica_Reconfig/PR4_/modulador.vhd Line: 24
@@ -588,9 +585,9 @@ Info (21057): Implemented 1853 device resources after synthesis - the final reso
     Info (21059): Implemented 24 output pins
     Info (21061): Implemented 1825 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 4838 megabytes
-    Info: Processing ended: Fri Jun 02 17:24:59 2023
+    Info: Peak virtual memory: 4834 megabytes
+    Info: Processing ended: Tue Jun 13 18:42:42 2023
     Info: Elapsed time: 00:00:16
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Total CPU time (on all processors): 00:00:11
 
 

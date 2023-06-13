@@ -1,5 +1,5 @@
 Fitter report for cont_modulo
-Fri Jun 02 17:25:14 2023
+Tue Jun 13 18:42:56 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Fri Jun 02 17:25:14 2023       ;
+; Fitter Status                      ; Successful - Tue Jun 13 18:42:56 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; cont_modulo                                 ;
 ; Top-level Entity Name              ; cont_modulo                                 ;
@@ -153,14 +153,14 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 8           ;
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.20        ;
+; Average used               ; 1.21        ;
 ; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   6.5%      ;
-;     Processor 3            ;   6.5%      ;
-;     Processor 4            ;   6.5%      ;
+;     Processor 2            ;   7.1%      ;
+;     Processor 3            ;   7.1%      ;
+;     Processor 4            ;   7.1%      ;
 +----------------------------+-------------+
 
 
@@ -999,9 +999,9 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;          |lpm_divide_2nl:auto_generated|  ; 138 (0)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 138 (0)      ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|modulador:map_2|lpm_divide:Mod1|lpm_divide_2nl:auto_generated                                                   ; lpm_divide_2nl      ; work         ;
 ;             |sign_div_unsign_1nh:divider| ; 138 (0)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 138 (0)      ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|modulador:map_2|lpm_divide:Mod1|lpm_divide_2nl:auto_generated|sign_div_unsign_1nh:divider                       ; sign_div_unsign_1nh ; work         ;
 ;                |alt_u_div_cke:divider|    ; 138 (138)   ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 138 (138)    ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|modulador:map_2|lpm_divide:Mod1|lpm_divide_2nl:auto_generated|sign_div_unsign_1nh:divider|alt_u_div_cke:divider ; alt_u_div_cke       ; work         ;
+;    |numtoseg:map_3|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|numtoseg:map_3                                                                                                  ; numtoseg            ; work         ;
 ;    |numtoseg:map_4|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|numtoseg:map_4                                                                                                  ; numtoseg            ; work         ;
 ;    |numtoseg:map_5|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|numtoseg:map_5                                                                                                  ; numtoseg            ; work         ;
-;    |numtoseg:map_6|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; 0          ; |cont_modulo|numtoseg:map_6                                                                                                  ; numtoseg            ; work         ;
 +-------------------------------------------+-------------+---------------------------+---------------+-------------+------+------------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------+------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1561,7 +1561,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "Hex5[5]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "Hex5[6]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "Hex5[7]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:02
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1574,17 +1574,17 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
-Info (11888): Total time spent on timing analysis during the Fitter is 0.24 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.22 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:02
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info (144001): Generated suppressed messages file C:/Users/joaop/Documents/Logica_Reconfig/PR4_/output_files/cont_modulo.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 30 warnings
     Info: Peak virtual memory: 5665 megabytes
-    Info: Processing ended: Fri Jun 02 17:25:14 2023
+    Info: Processing ended: Tue Jun 13 18:42:57 2023
     Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:09
 

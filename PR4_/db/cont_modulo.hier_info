@@ -4,30 +4,30 @@ freq_op[1] => freqop:map_0.freq_op[1]
 mclk => cloclk:map_1.mclk
 reset => cloclk:map_1.reset
 reset => modulador:map_2.reset
-Hex2[7] << numtoseg:map_4.Hex[7]
-Hex2[6] << numtoseg:map_4.Hex[6]
-Hex2[5] << numtoseg:map_4.Hex[5]
-Hex2[4] << numtoseg:map_4.Hex[4]
-Hex2[3] << numtoseg:map_4.Hex[3]
-Hex2[2] << numtoseg:map_4.Hex[2]
-Hex2[1] << numtoseg:map_4.Hex[1]
-Hex2[0] << numtoseg:map_4.Hex[0]
-Hex1[7] << numtoseg:map_5.Hex[7]
-Hex1[6] << numtoseg:map_5.Hex[6]
-Hex1[5] << numtoseg:map_5.Hex[5]
-Hex1[4] << numtoseg:map_5.Hex[4]
-Hex1[3] << numtoseg:map_5.Hex[3]
-Hex1[2] << numtoseg:map_5.Hex[2]
-Hex1[1] << numtoseg:map_5.Hex[1]
-Hex1[0] << numtoseg:map_5.Hex[0]
-Hex0[7] << numtoseg:map_6.Hex[7]
-Hex0[6] << numtoseg:map_6.Hex[6]
-Hex0[5] << numtoseg:map_6.Hex[5]
-Hex0[4] << numtoseg:map_6.Hex[4]
-Hex0[3] << numtoseg:map_6.Hex[3]
-Hex0[2] << numtoseg:map_6.Hex[2]
-Hex0[1] << numtoseg:map_6.Hex[1]
-Hex0[0] << numtoseg:map_6.Hex[0]
+Hex2[7] <= numtoseg:map_3.Hex[7]
+Hex2[6] <= numtoseg:map_3.Hex[6]
+Hex2[5] <= numtoseg:map_3.Hex[5]
+Hex2[4] <= numtoseg:map_3.Hex[4]
+Hex2[3] <= numtoseg:map_3.Hex[3]
+Hex2[2] <= numtoseg:map_3.Hex[2]
+Hex2[1] <= numtoseg:map_3.Hex[1]
+Hex2[0] <= numtoseg:map_3.Hex[0]
+Hex1[7] <= numtoseg:map_4.Hex[7]
+Hex1[6] <= numtoseg:map_4.Hex[6]
+Hex1[5] <= numtoseg:map_4.Hex[5]
+Hex1[4] <= numtoseg:map_4.Hex[4]
+Hex1[3] <= numtoseg:map_4.Hex[3]
+Hex1[2] <= numtoseg:map_4.Hex[2]
+Hex1[1] <= numtoseg:map_4.Hex[1]
+Hex1[0] <= numtoseg:map_4.Hex[0]
+Hex0[7] <= numtoseg:map_5.Hex[7]
+Hex0[6] <= numtoseg:map_5.Hex[6]
+Hex0[5] <= numtoseg:map_5.Hex[5]
+Hex0[4] <= numtoseg:map_5.Hex[4]
+Hex0[3] <= numtoseg:map_5.Hex[3]
+Hex0[2] <= numtoseg:map_5.Hex[2]
+Hex0[1] <= numtoseg:map_5.Hex[1]
+Hex0[0] <= numtoseg:map_5.Hex[0]
 
 
 |cont_modulo|freqop:map_0
@@ -282,6 +282,53 @@ Hex0[30] <= <GND>
 Hex0[31] <= <GND>
 
 
+|cont_modulo|numtoseg:map_3
+num[0] => Equal0.IN2
+num[0] => Equal1.IN3
+num[0] => Equal2.IN1
+num[0] => Equal3.IN3
+num[0] => Equal4.IN2
+num[0] => Equal5.IN3
+num[0] => Equal6.IN2
+num[0] => Equal7.IN3
+num[0] => Equal8.IN3
+num[1] => Equal0.IN1
+num[1] => Equal1.IN2
+num[1] => Equal2.IN3
+num[1] => Equal3.IN1
+num[1] => Equal4.IN1
+num[1] => Equal5.IN2
+num[1] => Equal6.IN3
+num[1] => Equal7.IN2
+num[1] => Equal8.IN2
+num[2] => Equal0.IN0
+num[2] => Equal1.IN1
+num[2] => Equal2.IN2
+num[2] => Equal3.IN2
+num[2] => Equal4.IN3
+num[2] => Equal5.IN1
+num[2] => Equal6.IN1
+num[2] => Equal7.IN1
+num[2] => Equal8.IN1
+num[3] => Equal0.IN3
+num[3] => Equal1.IN0
+num[3] => Equal2.IN0
+num[3] => Equal3.IN0
+num[3] => Equal4.IN0
+num[3] => Equal5.IN0
+num[3] => Equal6.IN0
+num[3] => Equal7.IN0
+num[3] => Equal8.IN0
+Hex[7] <= <VCC>
+Hex[6] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[5] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[4] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[3] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[2] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[1] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+Hex[0] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
+
+
 |cont_modulo|numtoseg:map_4
 num[0] => Equal0.IN2
 num[0] => Equal1.IN3
@@ -330,53 +377,6 @@ Hex[0] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |cont_modulo|numtoseg:map_5
-num[0] => Equal0.IN2
-num[0] => Equal1.IN3
-num[0] => Equal2.IN1
-num[0] => Equal3.IN3
-num[0] => Equal4.IN2
-num[0] => Equal5.IN3
-num[0] => Equal6.IN2
-num[0] => Equal7.IN3
-num[0] => Equal8.IN3
-num[1] => Equal0.IN1
-num[1] => Equal1.IN2
-num[1] => Equal2.IN3
-num[1] => Equal3.IN1
-num[1] => Equal4.IN1
-num[1] => Equal5.IN2
-num[1] => Equal6.IN3
-num[1] => Equal7.IN2
-num[1] => Equal8.IN2
-num[2] => Equal0.IN0
-num[2] => Equal1.IN1
-num[2] => Equal2.IN2
-num[2] => Equal3.IN2
-num[2] => Equal4.IN3
-num[2] => Equal5.IN1
-num[2] => Equal6.IN1
-num[2] => Equal7.IN1
-num[2] => Equal8.IN1
-num[3] => Equal0.IN3
-num[3] => Equal1.IN0
-num[3] => Equal2.IN0
-num[3] => Equal3.IN0
-num[3] => Equal4.IN0
-num[3] => Equal5.IN0
-num[3] => Equal6.IN0
-num[3] => Equal7.IN0
-num[3] => Equal8.IN0
-Hex[7] <= <VCC>
-Hex[6] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-Hex[5] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-Hex[4] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-Hex[3] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-Hex[2] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-Hex[1] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-Hex[0] <= Hex.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|cont_modulo|numtoseg:map_6
 num[0] => Equal0.IN2
 num[0] => Equal1.IN3
 num[0] => Equal2.IN1

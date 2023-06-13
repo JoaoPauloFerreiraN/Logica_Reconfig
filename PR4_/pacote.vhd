@@ -8,17 +8,7 @@ package pacote is
 				freq: in integer;
 			  clk: out std_logic);
 	end component;
-	
-	component acd_led is
-			port(clck, reset: in std_logic;
-					led: out std_logic_vector (3 downto 0));
-		end component;
 		
-	component cont7 is
-			port(clkc, reset: in std_logic;
-					set_seg: out std_logic_vector(0 to 6));
-	end component;
-	
 	component modulador is
 			port (clk, reset: in std_logic;
 					Hex2, Hex1, Hex0: out integer);
