@@ -1,0 +1,7 @@
+
+State Machine - |cont_123|pr_st
+Name pr_st.q3 pr_st.q2 pr_st.q1 pr_st.q0 
+pr_st.q0 0 0 0 0 
+pr_st.q1 0 0 1 1 
+pr_st.q2 0 1 0 1 
+pr_st.q3 1 0 0 1 
