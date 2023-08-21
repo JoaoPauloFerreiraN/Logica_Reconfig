@@ -17,7 +17,7 @@ package pacote is
 	component numtoseg is 
 			port(num: in integer range 0 to 9;
 				  Hex: out std_logic_vector(0 to 7));
-   end component;
+   	end component;
 	
 	component freqop is
 			port (freq_op: in std_logic_vector ( 1 downto 0);
